@@ -200,6 +200,14 @@ main article p {
 	font-size: 17px;
 }
 
+.product-item.show img {
+	width: 200px;
+}
+
+.product-item.show p {
+	width: 60%;
+}
+
 
 
 /*===========|</Main>|===========*/
@@ -233,7 +241,9 @@ form textarea {
 }
 
 form input[type="submit"] {
+	font-weight: 500;
 	background: rgba(255, 0, 0, 0);
+	transition: background .2s ease;
 }
 
 form input[type="submit"]:hover {
